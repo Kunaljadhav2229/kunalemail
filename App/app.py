@@ -3,6 +3,7 @@ import pickle
 import string
 import sklearn
 import nltk
+nltk.download('punkt')
 from nltk.corpus import stopwords
 import os
 os.chdir(r"/app/kunalemail/App")
