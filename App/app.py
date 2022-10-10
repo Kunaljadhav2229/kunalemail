@@ -4,7 +4,7 @@ import string
 import nltk
 from nltk.corpus import stopwords
 import os
-os.chdir(r"app/kunalemail/App/app.py")
+os.chdir(r"https://github.com/Kunaljadhav2229/kunalemail/blob/main/App")
 from scipy.sparse import csr_matrix
 from nltk.stem.porter import PorterStemmer
 
