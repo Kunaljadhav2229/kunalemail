@@ -4,7 +4,7 @@ import string
 import nltk
 from nltk.corpus import stopwords
 import os
-os.chdir(r"C:\Users\Admin\Desktop\SMS_EMAIL_SPAM_Detector_web_app\App")
+os.chdir(r"https://github.com/Kunaljadhav2229/kunalemail/edit/main/App/app.py")
 from scipy.sparse import csr_matrix
 from nltk.stem.porter import PorterStemmer
 
