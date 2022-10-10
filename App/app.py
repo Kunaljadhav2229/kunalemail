@@ -5,6 +5,7 @@ import nltk
 from nltk.corpus import stopwords
 import os
 os.chdir(r"/app/kunalemail/App")
+from sklearn.feature_extraction.text import TfidfVectorizer
 #from scipy.sparse import csr_matrix
 from nltk.stem.porter import PorterStemmer
 
