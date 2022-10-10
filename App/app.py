@@ -1,9 +1,9 @@
 import streamlit as st
 import pickle
 import string
-nltk.download()
 import nltk
-from nltk.corpus import stopword
+nltk.download(stopwords)
+from nltk.corpus import stopwords
 import os
 os.chdir(r"C:\Users\Admin\Desktop\SMS_EMAIL_SPAM_Detector_web_app\App")
 from scipy.sparse import csr_matrix
