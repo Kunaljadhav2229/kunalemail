@@ -5,7 +5,7 @@ import nltk
 from nltk.corpus import stopwords
 import os
 os.chdir(r"/app/kunalemail/App")
-from scipy.sparse import csr_matrix
+#from scipy.sparse import csr_matrix
 from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
